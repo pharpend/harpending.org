@@ -1,10 +1,20 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+import       Data.ByteString.Lazy (ByteString)
+import       Data.ByteString.Lazy.Char8 (unpack)
 import       Data.Monoid (mappend)
 import       Hakyll
+import       System.Posix.Resource
 
 
 --------------------------------------------------------------------------------
+
+-- | Process SASS
+--
+sass = getResourceLBS
+  >>= withItemBody (unixFilterLBS "sass" ["--stdin", "--style", "expanded"])
+  >>= return . fmap unpack
+
 main :: IO ()
 main = hakyll $ do
   match "images/*" $ do
@@ -12,8 +22,8 @@ main = hakyll $ do
     compile copyFileCompiler
 
   match "css/*" $ do
-    route idRoute
-    compile compressCssCompiler
+    route $ setExtension "css"
+    compile sass
 
   match (fromList ["about.rst", "contact.markdown"]) $ do
     route $ setExtension "html"
