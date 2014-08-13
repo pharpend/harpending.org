@@ -1,4 +1,4 @@
 pharpend.github.io
 ==================
 
-My site.
+My home page. See https://pharpend.github.io/
