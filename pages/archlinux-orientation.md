@@ -1,3 +1,5 @@
+# #archlinux orientation
+
 There are a number of unwritten rules on the Arch Linux IRC channel, so I
 figured I would write them out here.
 
