@@ -4,6 +4,7 @@
 cd ..
 cp -rf ./pharpend/_site/* ./pharpend.github.io/*
 cd pharpend.github.io/
-git commit -am "$(date)"
+git a .
+git commit -am "$(date). See hakyll branch."
 git push
 cd ../pharpend/
