@@ -37,7 +37,7 @@ figured I would write them out here.
     of some command to `ix`.
 
         % cat /etc/pacman.d/mirrorlist | ix
-        http://ix.io/eiR
+        http://ix.io/eiS
 
     `ix` will also accept filenames as input
     
