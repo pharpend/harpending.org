@@ -61,3 +61,6 @@ figured I would write them out here.
 6.  The best programming language is Haskell. If you mention something about a
     different language, some jackass will probably tell you to "write it in
     Haskell instead."
+7.  The best IRC client is WeeChat. If you ask people for help with some other
+    IRC client, you will likely be told to use WeeChat instead. irssi is also
+    popular, but almost everyone agrees WeeChat is better.
