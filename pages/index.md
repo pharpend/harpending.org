@@ -12,6 +12,10 @@ These are my main projects
 * [`lambdatube`][3] - a Yesod video service.
 * [`tropical`][4] - a Haskell library for [Tropical geometry][5].
 
+Also of interest
+
+* [#archlinux orientation](/archlinux-orientation.html)
+
 [1]: https://github.com/pharpend/dotfiles
 [2]: https://github.com/pharpend/eros
 [3]: https://github.com/pharpend/lambdatube
