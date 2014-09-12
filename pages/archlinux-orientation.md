@@ -54,13 +54,33 @@ figured I would write them out here.
     problem. Likewise, don't ask "Does anyone have experience doing `$thing`,"
     or "Does anyone know how to use `$software`." Seriously, just state your
     problem, someone will help you.
+
+        /msg phrik errors
+
+    > Don't just say it doesn't work. Give the exact error. If you think that
+    > more information than a line or two will be useful, see !pastebin
+
 5.  The best window manager is [i3wm](http://i3wm.org/). If you ask for help
     with another window manager, some jackass will probably tell you to switch
     to i3wm. [awesome](http://awesome.naquadah.org/) is also a good window
     manager.
-6.  The best programming language is Haskell. If you mention something about a
-    different language, some jackass will probably tell you to "write it in
-    Haskell instead."
-7.  The best IRC client is WeeChat. If you ask people for help with some other
+6.  The best IRC client is WeeChat. If you ask people for help with some other
     IRC client, you will likely be told to use WeeChat instead. irssi is also
     popular, but almost everyone agrees WeeChat is better.
+
+# Addenda 
+
+By `strcpy`:
+
+7.  Windows booting problems should be directed to `support@microsoft.com`.
+
+By `GodGinrai`:
+
+8. `#archlinux` supports Arch Linux, not other distros.
+
+        /msg phrik notarch
+
+    > This channel is for Arch Linux support only. Most Arch-based distros have
+    > fundamental differences and are served by their respective communities.
+
+
