@@ -4,13 +4,13 @@ figured I would write them out here.
 1.  Don't use pastebin.com for pastes. You can query `phrik`, the channel bot,
     to see why. 
 
-        /q phrik badpastebin
+        /msg phrik badpastebin
 
     > Ads, Spamfilters, Captcha, Adds whitespace, Slow, Ugly, No
     > comment/fork/annotate, Breaks copy/paste, Blocked for some people,
     > etc. See !pastebin.com
 
-        /q phrik pastebin.com
+        /msg phrik pastebin.com
 
     >Don't use it. Use some sane pastebin like bpaste.net gist.github.com,
     >sprunge.us ix.io . Also see !badpastebin
