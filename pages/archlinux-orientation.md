@@ -27,7 +27,8 @@ figured I would write them out here.
 
     ix.io is about as simple as pastebins get. It doesn't have a web interface
     like most pastebins. You have to use `curl`, and send an HTTP `POST` request
-    to paste something. the server will respond with the URL for your paste.
+    to paste something. The server will respond with the URL for your paste.
+    <!-- Thanks, Lehvyn -->
 
         % \dmesg | curl -F 'f:1=<-' http://ix.io
         http://ix.io/eiR
