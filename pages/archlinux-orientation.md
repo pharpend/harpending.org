@@ -8,14 +8,14 @@ figured I would write them out here.
 
         /msg phrik badpastebin
 
-    > Ads, Spamfilters, Captcha, Adds whitespace, Slow, Ugly, No
-    > comment/fork/annotate, Breaks copy/paste, Blocked for some people,
-    > etc. See !pastebin.com
+        Ads, Spamfilters, Captcha, Adds whitespace, Slow, Ugly, No
+        comment/fork/annotate, Breaks copy/paste, Blocked for some people,
+        etc. See !pastebin.com
 
         /msg phrik pastebin.com
 
-    >Don't use it. Use some sane pastebin like bpaste.net gist.github.com,
-    >sprunge.us ix.io . Also see !badpastebin
+        Don't use it. Use some sane pastebin like bpaste.net gist.github.com,
+        sprunge.us ix.io . Also see !badpastebin
 
     People will have `phrik` yell at you if you use pastebin.com for your
     pastes. Don't use it!
@@ -59,8 +59,8 @@ figured I would write them out here.
 
         /msg phrik errors
 
-    > Don't just say it doesn't work. Give the exact error. If you think that
-    > more information than a line or two will be useful, see !pastebin
+        Don't just say it doesn't work. Give the exact error. If you think that
+        more information than a line or two will be useful, see !pastebin
 
 5.  The best window manager is [i3wm](http://i3wm.org/). If you ask for help
     with another window manager, some jackass will probably tell you to switch
@@ -82,7 +82,8 @@ By `GodGinrai`:
 
         /msg phrik notarch
 
-    > This channel is for Arch Linux support only. Most Arch-based distros have
-    > fundamental differences and are served by their respective communities.
+        This channel is for Arch Linux support only. Most Arch-based distros
+        have fundamental differences and are served by their respective
+        communities.
 
 
