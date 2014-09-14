@@ -45,3 +45,8 @@ channel, so here they are, written out.
     ```
 3.  (By `hpc`) In the interest of not wasting time, please explain in detail
     what steps you have already taken to fix your issue.
+
+If you have any ideas or criticisms with regard to this document,
+[pull requests are welcome][1].
+
+[1]: https://github.com/pharpend/pharpend.github.io/blob/hakyll/pages/haskell-orientation.md

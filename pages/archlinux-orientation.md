@@ -120,3 +120,8 @@ figured I would write them out here.
 8.  (By `jasonwryan`) Please try to resolve your issue yourself before asking
     about it in the channel. This seems obvious, but you would be surprised how
     many people don't do this.
+
+If you have any ideas or criticisms with regard to this document,
+[pull requests are welcome][1].
+
+[1]: https://github.com/pharpend/pharpend.github.io/blob/hakyll/pages/archlinux-orientation.md
