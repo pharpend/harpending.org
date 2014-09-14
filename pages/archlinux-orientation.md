@@ -5,6 +5,9 @@ Originally published 12 September 2014, last edited 13 September 2014
 There are a number of unwritten rules on the Arch Linux IRC channel, so I
 figured I would write them out here.
 
+(By `jasonwryan`) Before reading this, please make sure you understand
+[the written rules](https://wiki.archlinux.org/index.php/Irc).
+
 1.  Don't use pastebin.com for pastes. You can query `phrik`, the channel bot,
     to see why. 
 
