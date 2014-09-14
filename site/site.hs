@@ -21,6 +21,10 @@ main = hakyll $ do
     route idRoute
     compile copyFileCompiler
 
+  match "highlight/styles/*" $ do
+    route idRoute
+    compile copyFileCompiler
+
   match "images/*" $ do
     route idRoute
     compile copyFileCompiler
