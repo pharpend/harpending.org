@@ -49,11 +49,9 @@ figured I would write them out here.
         % ix ~/.emacs.d/config/ft-python.el ~/.emacs.d/config/ft-markdown.el 
         http://ix.io/eiU+eiV
 
-2.  Everyone hates Manjaro Linux. I don't know why, but they do. If you are a
-    Manjaro user, people will yell at you.
-3.  We don't know how to set up Arch Linux with two graphics cards. For some
+2.  We don't know how to set up Arch Linux with two graphics cards. For some
     reason, people keep asking that.
-4.  If you have a problem, just state your problem. Someone will probably help
+3.  If you have a problem, just state your problem. Someone will probably help
     you. Don't say something along the lines of "I have a problem with `$thing`,
     can someone help me?" unless you immediately follow by stating your
     problem. Likewise, don't ask "Does anyone have experience doing `$thing`,"
@@ -65,16 +63,11 @@ figured I would write them out here.
         Don't just say it doesn't work. Give the exact error. If you think that
         more information than a line or two will be useful, see !pastebin
 
-5.  The best window manager is [i3wm](http://i3wm.org/). If you ask for help
-    with another window manager, some jackass will probably tell you to switch
-    to i3wm. [awesome](http://awesome.naquadah.org/) and
-    [bspwm](https://github.com/baskerville/bspwm) are also good window managers.
-6.  The best IRC client is WeeChat. If you ask people for help with some other
-    IRC client, you will likely be told to use WeeChat instead. irssi is also
-    popular, but almost everyone agrees WeeChat is better.
-7.  (By `strcpy`) People often ask about problems with Windows booting for some
+    This isn't an "unwritten rule," as it's well-documented, but it's important
+    enough that I include it here.
+4.  (By `strcpy`) People often ask about problems with Windows booting for some
     reason. Please direct those questions to `support@microsoft.com`.
-8.  (By `GodGinrai`) `#archlinux` supports Arch Linux, not other distros. As is
+5.  (By `GodGinrai`) `#archlinux` supports Arch Linux, not other distros. As is
     the case with Manjaro.
 
         /msg phrik notarch
@@ -83,7 +76,25 @@ figured I would write them out here.
         have fundamental differences and are served by their respective
         communities.
 
-9.  Some people are jerks. If someone is being really asinine, you can always
+6.  Some people are jerks. If someone is being really asinine, you can always
     page the channel operators by typing `!ops` into the channel. If the channel
     operators won't do anything, or are unresponsive, you can always use
     `/ignore` to ignore messages from someone.
+
+10. If you are having a font issue, or some issue involving the appearance of
+    something, please upload a screenshot. You can install the package `scrot`
+    from `[community]`, which is a nice little screenshot program. `imgur`, from
+    the AUR will upload an image to [Imgur](https://imgur.com/).
+
+    Using some `scrot`-`imgur`-foo, I have these little things defined in my
+    `~/.zshrc`.
+
+    ```sh
+    scrgur () {
+        scrot -e 'imgur $f ; mv $f ~/pics/screenshots'
+    }
+
+    scsgur () {
+        scrot -s -e 'imgur $f ; mv $f ~/pics/screenshots'
+    }
+    ```
