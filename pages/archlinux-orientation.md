@@ -1,6 +1,6 @@
 # #archlinux orientation
 
-12 September 2014
+Originally published 12 September 2014, last edited 13 September 2014
 
 There are a number of unwritten rules on the Arch Linux IRC channel, so I
 figured I would write them out here.
@@ -67,21 +67,15 @@ figured I would write them out here.
 
 5.  The best window manager is [i3wm](http://i3wm.org/). If you ask for help
     with another window manager, some jackass will probably tell you to switch
-    to i3wm. [awesome](http://awesome.naquadah.org/) is also a good window
-    manager.
+    to i3wm. [awesome](http://awesome.naquadah.org/) and
+    [bspwm](https://github.com/baskerville/bspwm) are also good window managers.
 6.  The best IRC client is WeeChat. If you ask people for help with some other
     IRC client, you will likely be told to use WeeChat instead. irssi is also
     popular, but almost everyone agrees WeeChat is better.
-
-# Addenda 
-
-By `strcpy`:
-
-7.  Windows booting problems should be directed to `support@microsoft.com`.
-
-By `GodGinrai`:
-
-8. `#archlinux` supports Arch Linux, not other distros.
+7.  (By `strcpy`) People often ask about problems with Windows booting for some
+    reason. Please direct those questions to `support@microsoft.com`.
+8.  (By `GodGinrai`) `#archlinux` supports Arch Linux, not other distros. As is
+    the case with Manjaro.
 
         /msg phrik notarch
 
@@ -89,4 +83,7 @@ By `GodGinrai`:
         have fundamental differences and are served by their respective
         communities.
 
-
+9.  Some people are jerks. If someone is being really asinine, you can always
+    page the channel operators by typing `!ops` into the channel. If the channel
+    operators won't do anything, or are unresponsive, you can always use
+    `/ignore` to ignore messages from someone.
