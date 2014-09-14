@@ -17,9 +17,11 @@ Also of interest
 * [#archlinux orientation](/archlinux-orientation.html)
 * [GitHub profile](https://github.com/pharpend)
 * [Open Source Report Card](https://osrc.dfm.io/pharpend/)
+* [Source for this site][6]
 
 [1]: https://github.com/pharpend/dotfiles
 [2]: https://github.com/pharpend/eros
 [3]: https://github.com/pharpend/lambdatube
 [4]: https://github.com/pharpend/tropical
 [5]: https://en.wikipedia.org/wiki/Tropical_geometry
+[6]: https://github.com/pharpend/pharpend.github.io/tree/hakyll
