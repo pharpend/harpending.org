@@ -81,7 +81,7 @@ figured I would write them out here.
     operators won't do anything, or are unresponsive, you can always use
     `/ignore` to ignore messages from someone.
 
-10. If you are having a font issue, or some issue involving the appearance of
+7.  If you are having a font issue, or some issue involving the appearance of
     something, please upload a screenshot. You can install the package `scrot`
     from `[community]`, which is a nice little screenshot program. `imgur`, from
     the AUR will upload an image to [Imgur](https://imgur.com/).
@@ -98,3 +98,6 @@ figured I would write them out here.
         scrot -s -e 'imgur $f ; mv $f ~/pics/screenshots'
     }
     ```
+8.  (By `jasonwryan`) Please try to resolve your issue yourself before asking
+    about it in the channel. This seems obvious, but you would be surprised how
+    many people don't do this.
