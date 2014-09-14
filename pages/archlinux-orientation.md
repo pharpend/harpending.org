@@ -1,6 +1,7 @@
 # #archlinux orientation
 
-Originally published 12 September 2014, last edited 13 September 2014
+12 September 2014
+last edited 14 September 2014
 
 There are a number of unwritten rules on the Arch Linux IRC channel, so I
 figured I would write them out here.

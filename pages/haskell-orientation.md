@@ -1,7 +1,7 @@
 # #haskell orientation
 
 13 September 2014 \
-Last edited 13 September 2014
+Last edited 14 September 2014
 
 I noticed newbies to the `#haskell` IRC channel all go through the same cycle of
 getting information, and getting yelled at for doing the wrong thing. That is,
