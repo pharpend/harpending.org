@@ -3,7 +3,7 @@
 I'm a mathematics student at the University of Utah in the United States. These
 are my rambling things.
 
-# Projects
+## Projects
 
 These are my main projects
 
@@ -12,13 +12,19 @@ These are my main projects
 * [`lambdatube`][3] - a Yesod video service.
 * [`tropical`][4] - a Haskell library for [Tropical geometry][5].
 
-Also of interest
+## Also of interest
 
 * [#archlinux orientation](/archlinux-orientation.html)
 * [#haskell orientation](/haskell-orientation.html)
 * [GitHub profile](https://github.com/pharpend)
 * [Open Source Report Card](https://osrc.dfm.io/pharpend/)
 * [Source for this site][6]
+
+## Contact
+
+You can email me at `pharpend2@gmail.com`. The best way to contact me is IRC. I
+am `pharpend` on FreeNode. I hang out in the various Arch Linux and Haskell
+channels. You can always see if I'm online with `/whois pharpend`.
 
 [1]: https://github.com/pharpend/dotfiles
 [2]: https://github.com/pharpend/eros
