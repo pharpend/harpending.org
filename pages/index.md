@@ -15,6 +15,8 @@ These are my main projects
 Also of interest
 
 * [#archlinux orientation](/archlinux-orientation.html)
+* [GitHub profile](https://github.com/pharpend)
+* [Open Source Report Card](https://osrc.dfm.io/pharpend/)
 
 [1]: https://github.com/pharpend/dotfiles
 [2]: https://github.com/pharpend/eros
