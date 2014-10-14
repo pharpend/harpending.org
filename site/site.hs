@@ -1,4 +1,3 @@
---------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 import       Data.ByteString.Lazy (ByteString)
 import       Data.ByteString.Lazy.Char8 (unpack)
@@ -6,11 +5,7 @@ import       Data.Monoid (mappend)
 import       Hakyll
 import       System.Posix.Resource
 
-
---------------------------------------------------------------------------------
-
 -- | Process SASS
---
 sass = getResourceLBS
   >>= withItemBody (unixFilterLBS "sass" ["--stdin", "--style", "expanded"])
   >>= return . fmap unpack
@@ -28,6 +23,12 @@ main = hakyll $ do
   match "stylesheets/*" $ do
     route $ setExtension "css"
     compile sass
+
+  match "bugs/*" $ do
+    route $ setExtension "html"
+    compile $ pandocCompiler
+      >>= loadAndApplyTemplate "templates/default.html" defaultContext
+      >>= relativizeUrls
 
   match "pages/*" $ do
     route $

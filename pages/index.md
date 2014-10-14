@@ -9,26 +9,29 @@ These are my main projects
 
 * [`dotfiles`][1] - not a real project, but nonetheless actively maintained.
 * [`eros`][2] - a Haskell library for text censorship.
-* [`lambdatube`][3] - a Yesod video service.
+* [`shmd`][3] - Simple Haskell Mailer Daemon
 * [`tropical`][4] - a Haskell library for [Tropical geometry][5].
 
 ## Also of interest
 
-* [#archlinux orientation](/archlinux-orientation.html)
-* [#haskell orientation](/haskell-orientation.html)
-* [GitHub profile](https://github.com/pharpend)
-* [Open Source Report Card](https://osrc.dfm.io/pharpend/)
+* [#archlinux orientation][7]
+* [#haskell orientation][8]
+* [GitHub profile][0]
+* [Open Source Report Card][9]
 * [Source for this site][6]
 
 ## Contact
 
-You can email me at `pharpend2@gmail.com`. The best way to contact me is IRC. I
-am `pharpend` on FreeNode. I hang out in the various Arch Linux and Haskell
-channels. You can always see if I'm online with `/whois pharpend`.
+* The best way to contact me is IRC - <irc://pharpend@chat.freenode.net>.
+* You can also email me at <pharpend2@gmail.com>.
 
+[0]: https://github.com/pharpend
 [1]: https://github.com/pharpend/dotfiles
 [2]: https://github.com/pharpend/eros
-[3]: https://github.com/pharpend/lambdatube
+[3]: https://github.com/pharpend/shmd
 [4]: https://github.com/pharpend/tropical
 [5]: https://en.wikipedia.org/wiki/Tropical_geometry
 [6]: https://github.com/pharpend/pharpend.github.io/tree/hakyll
+[7]: /posts/archlinux-orientation.html
+[8]: /posts/haskell-orientation.html
+[9]: https://osrc.dfm.io/pharpend/

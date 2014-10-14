@@ -1,7 +1,8 @@
-# #archlinux orientation
-
-12 September 2014
-Last edited 14 September 2014
+---
+title: #archlinux orientation
+date: 12 September 2014
+last-edited: 29 September 2014
+---
 
 There are a number of unwritten rules on the Arch Linux IRC channel, so I
 figured I would write them out here.

@@ -1,7 +1,8 @@
-# #haskell orientation
-
-13 September 2014 \
-Last edited 14 September 2014
+---
+title:  #haskell orientation
+date: 13 September 2014
+last-edited: 14 September 2014
+---
 
 I noticed newbies to the `#haskell` IRC channel all go through the same cycle of
 getting information. That is, there are a number of unwritten rules to the
