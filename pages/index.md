@@ -8,9 +8,11 @@ are my rambling things.
 These are my main projects
 
 * [`dotfiles`][1] - not a real project, but nonetheless actively maintained.
-* [`eros`][2] - a Haskell library for text censorship.
-* [`shmd`][3] - Simple Haskell Mailer Daemon
-* [`tropical`][4] - a Haskell library for [Tropical geometry][5].
+* [*Learn You Some Algebras for Glorious Good!*][lysa] - a math textbook.
+* [`puffytools`][puffytools] - a "personal assistant" on the command line.
+
+[lysa]: https://learnmath.github.io/
+[puffytools]: https://github.com/pharpend/puffytools
 
 ## Also of interest
 
@@ -22,8 +24,9 @@ These are my main projects
 
 ## Contact
 
-* The best way to contact me is IRC - <irc://pharpend@chat.freenode.net>.
-* You can also email me at <pharpend2@gmail.com>.
+* The best way to contact me is IRC, my nick is `pharpend` on FreeNode.
+* You can also email me at <pharpend2@gmail.com>. I don't check that email very
+  often, so IRC is best.
 
 [0]: https://github.com/pharpend
 [1]: https://github.com/pharpend/dotfiles
