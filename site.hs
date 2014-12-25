@@ -1,3 +1,5 @@
+#!/usr/bin/env runhaskell
+
 {-# LANGUAGE OverloadedStrings #-}
 import       Data.ByteString.Lazy (ByteString)
 import       Data.ByteString.Lazy.Char8 (unpack)
