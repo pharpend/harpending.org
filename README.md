@@ -1,4 +1,3 @@
-pharpend.github.io
-==================
+# harpending.org
 
-My home page. See https://pharpend.github.io/
+This is the source for http://harpending.org/
