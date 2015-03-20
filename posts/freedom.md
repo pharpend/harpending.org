@@ -105,7 +105,7 @@ freedom. Here is a list of good and bad browsers:
 
 
 **Good**                    **Bad**             **Ugly**
-------------------------    -----------------   --------
+------------------------    -----------------   -----------
 Firefox                     Chrome              IceCat
 Tor Browser Bundle (TBB)    Chromium            Jumanji
                             Internet Explorer   Midori
@@ -113,7 +113,7 @@ Tor Browser Bundle (TBB)    Chromium            Jumanji
                             Safari              QupZilla
                                                 Uzbl
                                                 Xombrero
---------------------------------------------------------
+-----------------------------------------------------------
 
 Table: This lists the browsers you should & shouldn't be using. The "ugly"
 column is for browsers that are technically okay, but are not very nice to use.
