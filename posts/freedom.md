@@ -5,7 +5,7 @@ digital freedom, and therefore digital privacy.
 
 First of all, what is "digital freedom"? Well, it's the basic idea that you
 should be able to do as you please with your software, your electronic devices,
-and online. 
+and online.
 
 Most people don't want their digital devices giving away their confidential
 data. Thus, part of making your digital things do what you want is making them
@@ -27,7 +27,7 @@ is less important than a vague threat of terrorism.
 
 Even if you don't care about your own privacy, you certainly have friends or
 family members that do.  In the interest of being considerate, you should obtain
-your digital privacy to protect others who want theirs. 
+your digital privacy to protect others who want theirs.
 
 Even if you are super careful, and don't share anything about your
 privacy-seeking friends, data about you is used to target those people who
@@ -81,7 +81,7 @@ your digital freedom back.
     freedom.**
 
     This includes: proprietary game consoles with cameras, Blu-ray disks,
-    anything made by Apple, 
+    anything made by Apple,
 
     You don't have to get rid of your current items, this is just for future
     reference. I will show you how to salvage what's left of your freedom on
@@ -95,8 +95,6 @@ them all. However, gun to your head, the first one is the most important.
 This is the first step towards getting your digital freedom back. It's the
 easiest step, and it is the most important, hence why it's first.
 
-There are a number of sub-steps.
-
 ### Step 1.1: Fix your web browser.
 
 [According to Wikipedia](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_table),
@@ -104,16 +102,53 @@ anywhere between 80--90% of internet users use browsers that don't respect their
 freedom. Here is a list of good and bad browsers:
 
 
-**Good**                    **Bad**             **Ugly**
+Good                        Bad                 Ugly
 ------------------------    -----------------   -----------
-Firefox                     Chrome              IceCat
-Tor Browser Bundle (TBB)    Chromium            Jumanji
-                            Internet Explorer   Midori
-                            Opera               QuteBrowser
-                            Safari              QupZilla
-                                                Uzbl
+Firefox                     Chrome              Jumanji
+IceCat                      Chromium            Midori
+Tor Browser Bundle (TBB)    Internet Explorer   QuteBrowser
+                            Opera               QupZilla
+                            Safari              Uzbl
                                                 Xombrero
 -----------------------------------------------------------
 
-Table: This lists the browsers you should & shouldn't be using. The "ugly"
-column is for browsers that are technically okay, but are not very nice to use.
+The "ugly" column is for browsers that are technically okay, but are not optimal
+(nor are they, in most cases, very pleasant to use).
+
+Of the three "good" browsers, I recommend Firefox, with some extended
+configuration, which I will document below. 
+
+IceCat and TBB are both actually much better than what I recommend, as far as
+digital freedom and digital privacy go. 
+
+**However**:
+
+*   IceCat blocks anything it deems a threat to your digital freedom. Sometimes,
+    it makes mistakes, or you are willing to make an exception. IceCat isn't
+    reasonable enough to figure this out, and thus is not very pleasant to use.
+
+* TBB is the most secure option, because it encrypts your connection, and then
+    bounces it through dozens of relays throughout the world (it also blocks ads
+    and scripts and stuff). Although this practice is very effective at
+    anonymizing your connection, the result is a very slow and shaky
+    connection. Most people are not willing to deal with this inconvenience, so
+    I won't recommend it for the average person.
+
+    Nonetheless, if you need serious privacy, TBB is the best option.
+
+#### Migrating over to Firefox
+
+If you currently use one of the browsers in the "bad" column, you'll want to
+read
+[Mozilla's guide to migrating your data over to Firefox](https://support.mozilla.org/en-US/kb/import-bookmarks-data-another-browser)
+
+#### Configuring Firefox to maximize your privacy
+
+Alright, at this point you've installed Firefox on your machine, and migrated
+your data over to Firefox. In this step, we're going to configure Firefox in
+such a manner that it maximizes your privacy.
+
+First things first, let's go into Firefox's internal settings. Click the triple
+bar icon in the top right corner:
+
+![A graphic showing which button](/images/triple-bar.png)
