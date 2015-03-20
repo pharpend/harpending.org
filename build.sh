@@ -1,10 +1,10 @@
 #!/bin/sh
 
-./site/site rebuild
-cd ..
-\cp -rf ./pharpend/_site/* ./pharpend.github.io/
-cd pharpend.github.io/
-git a .
-git commit -am "$(date). See hakyll branch."
+./site.hs rebuild
+cd prod
+git ls-files | xargs git rm
+cp -rv ../_site/* .
+git add .
+git commit -m "Update: $(date)"
 git push
-cd ../pharpend/
+cd ..
