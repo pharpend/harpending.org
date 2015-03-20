@@ -22,6 +22,14 @@ main = hakyll $ do
     route idRoute
     compile copyFileCompiler
 
+  match "res/*" $ do
+    route idRoute
+    compile copyFileCompiler
+
+  match "res/bootstrap/*/*" $ do
+    route idRoute
+    compile copyFileCompiler
+
   match "fonts/*" $ do
     route idRoute
     compile copyFileCompiler
