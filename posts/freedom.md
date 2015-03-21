@@ -1,4 +1,4 @@
-# Introduction
+# The Step-by-Step guide to getting back your digital freedom
 
 Hey, guys! I thought I'd write a step-by-step guide to help you all obtain
 digital freedom, and therefore digital privacy.
@@ -22,8 +22,7 @@ subject to tracking, targeted advertisements, and the sale of your personal
 information to people you wouldn't want knowing your name. Moreover, the same
 people who profit from selling your information are often forced to hand it over
 to the ~~thought police~~ American National Security Agency (NSA), without your
-knowledge or permission.  Our wonderful overlords at the NSA think your freedom
-is less important than a vague threat of terrorism.
+knowledge or permission.  
 
 Even if you don't care about your own privacy, you certainly have friends or
 family members that do.  In the interest of being considerate, you should obtain
@@ -44,10 +43,11 @@ Regardless of your political views, I don't know of anyone who wants to hand
 over their deepest, darkest secrets to some large company, much less a
 government known for blackmail, extortion, and harassment.
 
-# The three steps
+# Outline
 
-I hinted at this in the introduction: there are three basic steps to getting
-your digital freedom back.
+This section outlines the rest of this document.
+
+There are three basic steps to getting your digital freedom back.
 
 1.  **You are going to quit giving away your information on the internet.**
 
@@ -90,12 +90,41 @@ your digital freedom back.
 These three steps are ranked in order of importance. You should go through with
 them all. However, gun to your head, the first one is the most important.
 
-## Step 1: Stop giving away your data on the internet
+Each step has a series of sub steps
+
+##### Step 1: Control your online presence
+
+1.  **You are going to switch over to Mozilla Firefox, and configure it to
+    maximize your privacy**
+
+    This involves:
+
+    1.  Enabling the do-not-track feature.
+    2.  Considering whether or not you want to enable synchronization, and
+        whether or not to use a master password.
+    3.  Installing a number of add-ons:
+
+        1. AdBlock Edge
+        1. BetterPrivacy
+        1. Disconnect
+        1. Disconnect Search
+        1. Flashblock
+        1. HTTPS-Everywhere
+        1. NoScript (optional, but recommended)
+
+        **Important:** Do not install the Ghostery add-on in Firefox. Despite
+        being supposedly designed to protect your privacy, it is proprietary, so
+        it is a security risk.
+
+# Step 1: Control your online presence
 
 This is the first step towards getting your digital freedom back. It's the
 easiest step, and it is the most important, hence why it's first.
 
-### Step 1.1: Fix your web browser.
+There are a number of sub-steps
+
+
+## Step 1.1: Fix your web browser.
 
 [According to Wikipedia](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#Summary_table),
 anywhere between 80--90% of internet users use browsers that don't respect their
@@ -144,11 +173,39 @@ read
 
 #### Configuring Firefox to maximize your privacy
 
-Alright, at this point you've installed Firefox on your machine, and migrated
-your data over to Firefox. In this step, we're going to configure Firefox in
-such a manner that it maximizes your privacy.
+At this point you've installed Firefox on your machine, and migrated your data
+over to Firefox. In this step, we're going to configure Firefox in such a manner
+that it maximizes your privacy.
 
 First things first, let's go into Firefox's internal settings. Click the triple
 bar icon in the top right corner:
 
-![A graphic showing which button](/images/triple-bar.png)
+![](/images/triple-bar.png)
+
+Then, you'll want to click the "Preferences" button:
+
+![](/images/prefs-button.png)
+
+A window will pop up, which probably looks something like this:
+
+![](/images/prefs-window.png)
+
+Enable your web browser's do-not-track feature:
+
+![](/images/prefs-window-do-not-track.png)
+
+Next, we're going to enable some of Firefox's security settings:
+
+![](/images/prefs-window-security.png)
+
+Make sure to check all of those boxes **except for the last one**, which is "Use
+a master password".
+
+You are more than welcome to use a master password. It's a good idea. The master
+password encrypts your data. So, even if you use Firefox's sync feature (which I
+will show you in a minute), you are the only person who can access it. Even if
+Mozilla gave your data over to the NSA, the NSA wouldn't be able to do anything
+with it.
+
+However, if you forget your master password, then your data is lost forever. Not
+even the NSA can break this encryption.
