@@ -1,53 +1,23 @@
-# The Step-by-Step guide to getting back your digital freedom
+The Step-by-Step guide to getting back your digital freedom (and therefore your privacy online)
+===
 
-Hey, guys! I thought I'd write a step-by-step guide to help you all obtain
-digital freedom, and therefore digital privacy.
+**Peter Harpending**\
+**Draft: 21 March 2015**
+
+Hey, everyone!
 
 First of all, what is "digital freedom"? Well, it's the basic idea that you
 should be able to do as you please with your software, your electronic devices,
-and online.
-
-Most people don't want their digital devices giving away their confidential
-data. Thus, part of making your digital things do what you want is making them
-not give away your confidential data without your permission. That's called
-digital privacy. The only way to get digital privacy is to give yourself digital
-freedom.
+and online.  I imagine most people reading this are doing so because they want
+to get back their digital privacy. I have some news for you: **the only way to
+get back your digital privacy is to get back your digital freedom**.
 
 The path to digital freedom will involve some changes in the way you use your
-electronics. You might not like some of these changes. I promise, though, it's
-all worth it in the end.
+electronics, and the way you conduct yourself online. You might not like some of
+these changes at first. In fact, I'm almost sure you'll dislike at least 10% of
+what I tell you to do. I promise, though, it's all worth it in the end.
 
-The first step is to secure your presence online. Every day, you are likely
-subject to tracking, targeted advertisements, and the sale of your personal
-information to people you wouldn't want knowing your name. Moreover, the same
-people who profit from selling your information are often forced to hand it over
-to the ~~thought police~~ American National Security Agency (NSA), without your
-knowledge or permission.  
-
-Even if you don't care about your own privacy, you certainly have friends or
-family members that do.  In the interest of being considerate, you should obtain
-your digital privacy to protect others who want theirs.
-
-Even if you are super careful, and don't share anything about your
-privacy-seeking friends, data about you is used to target those people who
-prefer to keep their lives private. (This practice is more commonly known as
-"social networking"). It's incredibly unethical, but it is entirely legal (you
-all probably just click "Agree" instead of reading the 1200 page document of
-Terms & Conditions).
-
-You may not even realize that you are subject to this mistreatment; you may just
-think it's business as usual. I'm going to show you exactly what this
-mistreatment is, and how to escape it.
-
-Regardless of your political views, I don't know of anyone who wants to hand
-over their deepest, darkest secrets to some large company, much less a
-government known for blackmail, extortion, and harassment.
-
-# Outline
-
-This section outlines the rest of this document.
-
-There are three basic steps to getting your digital freedom back.
+There are three steps here:
 
 1.  **You are going to quit giving away your information on the internet.**
 
@@ -57,7 +27,7 @@ There are three basic steps to getting your digital freedom back.
     data over to the NSA.
 
     You can keep your accounts on services that respect your freedom, such as
-    Identi.ca and Twitter. You're only going to delete your accounts on services
+    Reddit and Twitter. You're only going to delete your accounts on services
     that purposefully violate your freedom.
 
     In many cases, the alternative services I recommend do cost
@@ -90,39 +60,84 @@ There are three basic steps to getting your digital freedom back.
 These three steps are ranked in order of importance. You should go through with
 them all. However, gun to your head, the first one is the most important.
 
-Each step has a series of sub steps
+### With regard to privacy:
 
-##### Step 1: Control your online presence
+It's unfortunate, but you can't have your cake and eat it too.
+
+What I mean by that is, if you want privacy, you can't use services like
+Facebook, Google+, Pinterest, or Tinder. These companies' only path to profit is
+through violating your privacy.
+
+In most cases, there are alternative services that perform the same function,
+while still managing to respect your privacy, and work just as well. I'll show
+you how to migrate to these (and, more importantly, how to convince your friends
+to migrate).
+
+For instance, a lot of people use Twitter. Twitter actually respects your
+privacy, so it's okay to keep your Twitter account.^[However, due to
+some fundamental flaws with Twitter's design, it's far from optimal. Identi.ca
+is a better option than Twitter. Twitter is okay, though.] Reddit is also okay.
+
+#### Even if you don't care about your own privacy, you certainly have friends and/or family members that do. In the interest of being considerate, you should obtain your digital privacy to protect others who want theirs.
+
+Even if you are super careful, and don't share anything about your
+privacy-seeking friends, data about you is used to target those people who
+prefer to keep their lives
+private.^[This practice is more commonly known as "social networking".] It's
+incredibly unethical, but it is entirely legal. You probably just clicked
+"Agree" instead of reading the 1200 page document of Terms & Conditions.
+
+You may not even realize that you are subject to this mistreatment; you may just
+think it's business as usual. I'm going to show you exactly what this
+mistreatment is, and how to escape it.
+
+## Step 1: Control your online presence
+
+Alright, now that the introduction is out of the way, let's get started! This is
+step 1. It's the easiest, quickest, and most important step. Here's a quick
+outline of what we're going to do here:
 
 1.  **You are going to switch over to Mozilla Firefox, and configure it to
     maximize your privacy**
 
     This involves:
 
-    1.  Enabling the do-not-track feature.
-    2.  Considering whether or not you want to enable synchronization, and
+    a.  Migrating your data over from another browser
+    b.  Enabling the do-not-track feature.
+    c.  Considering whether or not you want to enable synchronization, and
         whether or not to use a master password.
-    3.  Installing a number of add-ons:
+    d.  Installing a number of add-ons:
 
-        1. AdBlock Edge
-        1. BetterPrivacy
-        1. Disconnect
-        1. Disconnect Search
-        1. Flashblock
-        1. HTTPS-Everywhere
-        1. NoScript (optional, but recommended)
+        i. AdBlock Edge
+        #. BetterPrivacy
+        #. Disconnect
+        #. Disconnect Search
+        #. Flashblock
+        #. HTTPS-Everywhere
+        #. NoScript (optional, but recommended)
 
         **Important:** Do not install the Ghostery add-on in Firefox. Despite
         being supposedly designed to protect your privacy, it is proprietary, so
         it is a security risk.
 
-# Step 1: Control your online presence
+2.  **You are going to delete your Google+ and Facebook accounts. Also
+    Pinterest, Instagram, Tinder, Snapchat.**
 
-This is the first step towards getting your digital freedom back. It's the
-easiest step, and it is the most important, hence why it's first.
+    These companies purposefully violate your privacy. It is, however, okay to
+    keep:
 
-There are a number of sub-steps
+    1.  **Gmail, Hotmail, or Yahoo Mail**: There are better options for email
+        --- which I will show you --- but it's okay to keep these for backwards
+        compatibility.
 
+    #.  **Twitter**: Twitter is known to vigorously defend your
+        privacy. **However, if you post tweets**: because of a fundamental flaw
+        in its design, Twitter is not ideal. Identi.ca or GNU Social are much
+        better options.
+
+    #.  **Reddit**: Unlike social networking sites like Facebook or Google+,
+        Reddit isn't intrinsically a threat to your privacy. You can use Reddit
+        without divulging any information about yourself
 
 ## Step 1.1: Fix your web browser.
 
@@ -209,3 +224,9 @@ with it.
 
 However, if you forget your master password, then your data is lost forever. Not
 even the NSA can break this encryption.
+
+# Conclusion
+
+If you have any comments, questions, concerns, what-have-you, or want to suggest
+a change to this document, please see
+[the git repository](https://notabug.org/pharpend/harpending.org/src/master/posts/freedom.md).
