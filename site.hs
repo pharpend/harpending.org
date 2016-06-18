@@ -1,61 +1,39 @@
-#!/usr/bin/env runhaskell
+#!/usr/bin/env stack
+-- stack --install-ghc runghc --package hakyll --package bytestring -- -rtsopts -with-rtsopts=-I0 -O0
 
 {-# LANGUAGE OverloadedStrings #-}
-import       Data.ByteString.Lazy (ByteString)
-import       Data.ByteString.Lazy.Char8 (unpack)
-import       Data.Monoid (mappend)
-import       Hakyll
-import       System.Posix.Resource
 
--- | Process SASS
-sass = getResourceLBS
-  >>= withItemBody (unixFilterLBS "sass" ["--stdin", "--style", "expanded"])
-  >>= return . fmap unpack
+import Data.ByteString.Lazy (ByteString)
+import Data.ByteString.Lazy.Char8 (unpack)
+import Data.Monoid (mappend)
+import Hakyll
+
+pdcc = 
+  compile $ pandocCompiler 
+              >>= loadAndApplyTemplate "templates/default.html" defaultContext
+              >>= relativizeUrls
 
 main :: IO ()
 main = hakyll $ do
-  match "highlight/*" $ do
-    route idRoute
-    compile copyFileCompiler
-
   match "images/*" $ do
     route idRoute
     compile copyFileCompiler
-
-  match "res/*" $ do
-    route idRoute
-    compile copyFileCompiler
-
-  match "res/bootstrap/*/*" $ do
-    route idRoute
-    compile copyFileCompiler
-
-  match "fonts/*" $ do
-    route idRoute
-    compile copyFileCompiler
-
   match "stylesheets/*" $ do
-    route $ setExtension "css"
-    compile sass
+    route idRoute
+    compile copyFileCompiler
 
   match "bugs/*" $ do
     route $ setExtension "html"
-    compile $ pandocCompiler
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
-      >>= relativizeUrls
+    pdcc
 
   match "pages/*" $ do
     route $
       gsubRoute "pages/" (const "") `composeRoutes`
       setExtension "html"
-    compile $ pandocCompiler
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
-      >>= relativizeUrls
+    pdcc
 
   match "posts/*" $ do
     route $ setExtension "html"
-    compile $ pandocCompiler
-      >>= loadAndApplyTemplate "templates/default.html" defaultContext
-      >>= relativizeUrls
+    pdcc
 
   match "templates/*" $ compile templateCompiler

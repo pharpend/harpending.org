@@ -29,7 +29,7 @@ These are my main projects
 [2]: https://gitlab.com/u/pharpend
 [3]: https://notabug.org/pharpend
 [4]: /posts/freedom.html
-[6]: https://notabug.org/pharpend/harpending.org
+[6]: https://github.com/pharpend/harpending.org
 [7]: /posts/archlinux-orientation.html
 [8]: /posts/haskell-orientation.html
 [9]: https://osrc.dfm.io/pharpend/
