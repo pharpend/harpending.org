@@ -4,6 +4,14 @@ Hi.
 
 These are my main projects
 
+* [`lypaste`](http://paste.learnyou.org/new) - a pastebin for Markdown
+  with LaTeX math.
+* [`editor-open`](https://github.com/pharpend/editor-open) - Haskell
+  library for opening `$EDITOR` (as in `git commit`).
+* [`pager`](https://github.com/pharpend/pager) - Haskell
+  library for opening `$PAGER` (like piping to `less`).
+* [`semiring-simple`](https://gitlab.com/pharpend/semiring-simple) -
+  Haskell library implementing `Semiring` typeclass.
 * [`dotfiles`][1] - not a real project, but nonetheless actively maintained.
 * [*Learn You Some Algebras for Glorious Good!*][lysa] - a math textbook.
 
@@ -11,13 +19,13 @@ These are my main projects
 
 ## Also of interest
 
+* [Snowdrift](https://snowdrift.coop/)
 * [#archlinux orientation][7]
 * [#haskell orientation][8]
 * [GitHub profile][0]
 * [GitLab profile][2]
 * [NotABug profile][3]
 * [Source for this site][6]
-* [Draft of an article on Digital Freedom][4]
 
 ## Contact
 

@@ -8,8 +8,8 @@ import Data.ByteString.Lazy.Char8 (unpack)
 import Data.Monoid (mappend)
 import Hakyll
 
-pdcc = 
-  compile $ pandocCompiler 
+pdcc =
+  compile $ pandocCompiler
               >>= loadAndApplyTemplate "templates/default.html" defaultContext
               >>= relativizeUrls
 
